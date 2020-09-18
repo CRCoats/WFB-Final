@@ -58,7 +58,7 @@ nav li a:hover {
 
 /* COLOR WHEN CLICKING */
 nav li a:active {
-    
+    color: #1a9191;
 }
 
 /* COLOR WHEN ALREADY VISITED */
@@ -84,25 +84,23 @@ aside {
     float: right;
 }
 
-.left {
+.column {
     height: 155%;
     width: 15%;
     margin: auto;
-    background-color: yellow;
-    background-image: url(https://i.ibb.co/QpHcMRt/pexels-darius-krause-2609107.jpg);
     position: sticky;
     top: 0%;
+}
+
+.left {
+    background-color: yellow;
+    background-image: url(https://i.ibb.co/QpHcMRt/pexels-darius-krause-2609107.jpg);
     float: left;
 }
 
 .right {
-    height: 155%;
-    width: 15%;
-    margin: auto;
     background-color: purple;
     background-image: url(https://i.ibb.co/QpHcMRt/pexels-darius-krause-2609107.jpg);
-    position: sticky;
-    top: 0%;
     float: right;
 }
 

@@ -84,23 +84,23 @@ aside {
     float: right;
 }
 
-.column {
-    height: 155%;
-    width: 15%;
-    margin: auto;
-    position: sticky;
-    top: 0%;
-}
-
 .left {
     background-color: yellow;
     background-image: url(https://i.ibb.co/QpHcMRt/pexels-darius-krause-2609107.jpg);
+    height: 155%;
+    width: 15%;
+    position: sticky;
+    top: 0%;
     float: left;
 }
 
 .right {
     background-color: purple;
     background-image: url(https://i.ibb.co/QpHcMRt/pexels-darius-krause-2609107.jpg);
+    height: 155%;
+    width: 15%;
+    position: sticky;
+    top: 0%;
     float: right;
 }
 

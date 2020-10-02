@@ -101,7 +101,7 @@ nav a:visited {
     position: relative;
     float: left;
     overflow: hidden;
-    opacity: 0.7;
+    opacity: 0.85;
 }
 
 .photo-tall img {
@@ -110,7 +110,7 @@ nav a:visited {
     position: relative;
     float: left;
     overflow: hidden;
-    opacity: 0.7;
+    opacity: 0.85;
 }
 
 .photo img:hover, .photo-tall img:hover {
@@ -132,16 +132,17 @@ nav a:visited {
     margin: 0;
     position: relative;
     float: left;
-    background-color: #A7A783;
+    background-color: #C6B7A2;
 }
 
 .feature img {
     width: 60%;
-    height: 450px;
+    height: 350px;
     position: relative;
     float: center;
-    background-color: lightgoldenrodyellow;
-    padding: 25px;
+    background-color: lightgoldenrodyellow; 
+    padding: 5px;
+    margin: 50px auto;
 }
 
 main {
@@ -152,7 +153,7 @@ main {
 }
 
 .cafe-teas {
-    background-color: #E7BA94;
+    background-color: #804A47;
     width: 100%;
     height: 449px;
     position: relative;

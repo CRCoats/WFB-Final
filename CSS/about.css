@@ -77,25 +77,26 @@ nav a:visited {
     text-align: center;
     position: relative;
     float: left;
-    background-color: #7E8877;
+    background-color: #83976E;
 }
 
 main {
-    height: 1000px;
+    height: 900px;
     width: 100%;
-    background-color: #7E8877;
+    background-color: #83976E;
     position: relative;
     float: left;
 }
 
 .page {
     width: 60%;
-    height: 80%;
+    height: 800px;
     text-align: center;
     border: 1px solid #000000;
-    margin: 50px auto;
-    background-color: #B5C2BC;
+    margin: 30px auto;
+    background-color: #D9D8D6;
     opacity: 95%;
+    min-width: 500px;
 }
 
 h1 {
@@ -114,22 +115,12 @@ p {
     font-size: 20px;
 }
 
-.album {
-    width: 85%;
-    height: 50px;
-    position: relative;
-    float: left;
-}
-
-.photo {
-    height: 80px;
-    width: 80px;
+.map {
+    width: 100%;
     margin: auto;
-    padding: 0px;
+    padding: 20px 0;
     text-align: center;
-    position: relative;
-    border: 1px solid #000000;
-    float: left;
+    background-color: #83976E;
 }
 
 footer {

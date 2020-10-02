@@ -71,6 +71,38 @@ nav a:visited {
       color: #5F9EA0;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
 .divider {
     height: 20px;
     width: 100%;
@@ -83,19 +115,10 @@ nav a:visited {
 main {
     height: 850px;
     width: 100%;
-    background-color: #7E8877;
+    background-color: #DECCC6;
     position: relative;
     float: left;
-}
-
-.form {
-    width: 60%;
-    height: 90%;
     text-align: center;
-    border: 1px solid #000000;
-    margin: 50px auto;
-    background-color: #B5C2BC;
-    opacity: 95%;
 }
 
 h1 {
@@ -104,6 +127,11 @@ h1 {
 }
 
 h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+}
+
+h3 {
     font-family: 'Sansita Swashed', cursive;
     font-size: 30px;
 }
@@ -115,18 +143,6 @@ h2 {
     border: 2px solid #000000;
     margin: 4px auto;
     background-color: #DAE9E1;
-}
-
-.name {
-    height: 80px;
-}
-
-.email {
-    height: 80px;
-}
-
-.message {
-    height: 215px;
 }
 
 footer {

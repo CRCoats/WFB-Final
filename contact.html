@@ -19,9 +19,9 @@
             <h1>
                 &nbsp; Half|Tree
             </h1>
-            <h2>
+            <h3>
                 &nbsp; &nbsp; &nbsp; Cafe, Teas, & Books
-            </h2>
+            </h3>
         </div>
         <!-- NAV BAR -->
         <nav>
@@ -35,30 +35,22 @@
     </div>
 
     <main>
-        <div class="form";>
-            <br>
-            <h1>Contact Us</h1>
-            <br>
-            <div>
-                <!-- INPUT NAME -->
-                <div class="name answer";>
-                    Name
-                </div>
-                <br>
-                <!-- INPUT EMAIL -->
-                <div class = "email answer";>
-                    Email
-                </div>
-                <br>
-                <!-- INPUT MESSAGE -->
-                <div class = "message answer";>
-                    Message
-                </div>
-            </div>
-            <br><br>
-            <button>
-                Submit
-            </button>
+        <h2>Contact Us</h2>
+
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                The form leads nowhere ...
+                <input type="submit" value="Submit?">
+
+            </form>
         </div> 
     </main>
     

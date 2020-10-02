@@ -101,7 +101,7 @@ nav a:visited {
     position: relative;
     float: left;
     overflow: hidden;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .photo-tall img {
@@ -110,7 +110,7 @@ nav a:visited {
     position: relative;
     float: left;
     overflow: hidden;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .photo img:hover, .photo-tall img:hover {
@@ -226,6 +226,14 @@ footer {
     height: 100%;
     width: 50%;
     position: relative;
+    float: left;
     margin: 0;
     padding-top: 10px;
+}
+
+.icon {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: left;
 }

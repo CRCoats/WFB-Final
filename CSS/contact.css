@@ -1,23 +1,148 @@
 body {
-
+    background-color: #726c66;
+    opacity: .8;
 }
 
 header {
+    height: 200px;
+    background-color: #e6e6fa;
+}
 
+.banner {
+    height: 160px;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-image: url("../img/banner-back.jpg");
+    background-size: cover;
+    line-height: 80%;
+}
+
+.logo {
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-image: url("../img/logo-3.png");
+    background-size: contain;
+    background-color: transparent;
+    margin: 10px;
+}
+
+/*    NAV BAR    */
+nav {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: #1A1309;
+    font-size: 20px;
+}
+
+/* links */
+nav a {
+      display: inline-block;
+      list-style: none;
+      height: 40px;
+      line-height: 100%;
+      padding: 10px 50px;
+      text-decoration: none;
+}
+
+/* link default color */
+nav a:link {
+      color: #5E8A55;
+}
+
+/* link hover color */
+nav a:hover {
+      color: #a688f3;
+}
+
+/* link click color */
+nav a:active {
+      color: #1a9191;
+}
+
+/* link visited color */
+nav a:visited {
+      color: #5F9EA0;
+}
+
+.divider {
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: #7E8877;
 }
 
 main {
+    height: 850px;
+    width: 100%;
+    background-color: #7E8877;
+    position: relative;
+    float: left;
+}
 
+.form {
+    width: 60%;
+    height: 90%;
+    text-align: center;
+    border: 1px solid #000000;
+    margin: 50px auto;
+    background-color: #B5C2BC;
+    opacity: 95%;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+}
+
+.answer {
+    font-family: 'Sansita Swashed', cursive;
+    width: 75%;
+    text-align: left;
+    border: 2px solid #000000;
+    margin: 4px auto;
+    background-color: #DAE9E1;
 }
 
 .name {
-
+    height: 80px;
 }
 
 .email {
-    
+    height: 80px;
 }
 
 .message {
-    
+    height: 215px;
+}
+
+footer {
+    height: 45px;
+    background-color: #1A1309;
+    position: relative;
+    clear: left;
+    font-size: 20px;
+    text-align: center;
+    color: #C3AF92;
+}
+
+.info {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    margin: 0;
+    padding-top: 10px;
 }
